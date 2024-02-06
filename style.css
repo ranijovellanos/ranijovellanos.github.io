@@ -1,0 +1,44 @@
+/* selector
+            tag name
+            class name
+            id
+            descendant
+            pseudo selector
+         */
+        
+         /* select element by tag name */
+
+         /* div {
+            background-color: blue;
+            margin-bottom: 10px;
+            color: white;   
+         } */
+
+         /* select element by id */
+
+         #navbar {
+            background-color: blue;
+            margin-bottom: 10px;
+            color: white;   
+         }
+         #heropage {
+            background-color: blue;
+            margin-bottom: 10px;
+            color: white;   
+         }
+
+          /* select element by class name */
+          .image-div {
+            background-color: red;
+            margin-bottom: 10px;
+            color: white;  
+          }
+
+          /* select element by descendant */
+          #image-div + div{
+            background-color: yellow;
+            margin-bottom: 10px;
+            color: white; 
+          }
+
+          /* select element by pseudo selector */

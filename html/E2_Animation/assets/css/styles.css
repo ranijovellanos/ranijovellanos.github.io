@@ -1,0 +1,16 @@
+body, html {
+    margin: 0px;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -12,7 +12,7 @@ main {
     height: 100%;
     margin: 0px auto;
 
-    background-color: green;
+    background-color: green !important;
 }
 
 .section-cover {
@@ -87,6 +87,9 @@ ul {
     }
     body {
         background-color: red;
+    }
+    main{
+        background-color: green !important;
     }
 }
 

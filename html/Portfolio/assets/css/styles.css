@@ -1,15 +1,188 @@
 body, html{
     padding: 0px;
     margin: 0px;
+    background-color: white;
+    height: 100%;
+    scroll-behavior: smooth;
 }
-header {
-    background-color: antiquewhite;
+#header {
+    background-color:#993B2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
-nav {
-    background-color: aquamarine;
+.nav-menu {
+    /* background-color: green; */
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
     width: 1024px;
     display: flex;
+    justify-content: space-evenly;
 }
-.div-logo {
-    background-image: url("../images/Bask.png");
+ul li a{
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: larger;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+#div-logo {
+    background-image: url("../images/THREE\ FRIENDS.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 30%;
+    background-color: #993B2C;
+  
+    margin-left: 100px;
+}
+#section-about {
+    height: 700px;
+    background-image: url("../images/sunset.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-color: aqua; */
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: #0005;
+    background-blend-mode: darken; */
+}
+
+
+#div-personal {
+    background-color: #F5E9E2;
+    width: 1024px;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 3px 3px 3px 3px rgba(0, 0,0,.5);
+    border-radius: 15px 50px;
+}
+
+#personal-image {
+    height: 320px;
+    width: 320px;
+    background-image: url("../images/friends\ facing\ the\ sun.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#personal-info {
+    height: 70%;
+    width: 55%;
+    /* background-color: #f7f7f7; */
+    text-align: justify;
+    text-justify: inter-word;
+    color: #7a766c;
+    font-size: large;
+}
+#section-services {
+    height: 800px;
+    background-color: #E3B5A4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#div-services-uno {
+    background-color: #dce3f5;
+    width: 1024px;
+    height: 250px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 15px;
+}
+#image-SD {
+    height: 320px;
+    width: 320px;
+    background-image: url("../images/sd.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#div-services-dos {
+    background-color: #9B4B1B;
+    width: 1024px;
+    height: 250px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 15px;
+
+    margin: 10px;
+}
+#image-retreat {
+    height: 320px;
+    width: 320px;
+    background-image: url("../images/retreats.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#div-services-tres {
+    background-color: #8D91C7;
+    width: 1024px;
+    height: 250px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 15px;
+}
+#image-training {
+    height: 320px;
+    width: 320px;
+    background-image: url("../images/training.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#section-portfolio {
+    height: 800px;
+    background-color: #FF8C61;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section-affiliate {
+    height: 800px;
+    background-color:#F5E9E2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color:#993B2C;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -94,70 +94,114 @@ ul li a:hover{
     font-size: large;
 }
 #section-services {
-    height: 800px;
+    height: 1000px;
     background-color: #E3B5A4;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+}
+#services-first {
+    width: 1024px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 #div-services-uno {
     background-color: #dce3f5;
-    width: 1024px;
-    height: 250px;
+    width: 50%;
+    height: 100%;
 
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
 
     border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0,0,.5);
+    margin: 5px;
 }
 #image-SD {
-    height: 320px;
-    width: 320px;
+    height: 60%;
+    width: 90%;
     background-image: url("../images/sd.jpeg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 15px 15px;
+    margin: 10px auto;
+}
+
+#SD-info {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 #div-services-dos {
     background-color: #9B4B1B;
-    width: 1024px;
-    height: 250px;
+    width: 50%;
+    height: 100%;
 
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
 
     border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0,0,.5);
 
-    margin: 10px;
+    margin: 5px;
 }
 #image-retreat {
-    height: 320px;
-    width: 320px;
+    height: 60%;
+    width: 90%;
     background-image: url("../images/retreats.jpeg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 15px 15px;
+    margin: 10px auto;
+}
+#retreat-info {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#services-second {
+    height: 400px;
+    margin-top: 10px;
+
 }
 #div-services-tres {
     background-color: #8D91C7;
     width: 1024px;
-    height: 250px;
+    height: 400px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
     border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0,0,.5);
 }
 #image-training {
-    height: 320px;
-    width: 320px;
+    height: 80%;
+    width: 45%;
     background-image: url("../images/training.jpeg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    margin-left: 25px !important;
+    border-radius: 15px 15px;
+}
+#training-info {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 #section-portfolio {
     height: 800px;
@@ -173,9 +217,42 @@ ul li a:hover{
     background-color:#F5E9E2;
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#div-affiliate {
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-user-info-one {
+    height: 700px;
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#div-user-info-two {
+    height: 700px;
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#div-user-info-one img {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 50%;
+}
+#div-user-info-two img {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 50%;
 }
 footer {
     background-color:#993B2C;

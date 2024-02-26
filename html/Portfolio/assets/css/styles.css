@@ -110,8 +110,8 @@ ul li a:hover{
 }
 #section-services {
     height: 1300px;
-    background-image: url("../images/leaves.png");
-    /* background-color: #E3B5A4; */
+    /* background-image: url("../images/leaves.png"); */
+    background-color: #E3B5A4;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -235,8 +235,8 @@ ul li a:hover{
 }
 #section-portfolio {
     height: 1100px;
-    /* background-color: #FF8C61; */
-    background-image: url("../images/tree.png");
+    background-color: #FF8C61;
+    /* background-image: url("../images/tree.png"); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
